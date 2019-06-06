@@ -1,0 +1,187 @@
+18:00:20.509: CPU Name: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz
+18:00:20.509: CPU Speed: 3499MHz
+18:00:20.509: Physical Cores: 4, Logical Cores: 4
+18:00:20.509: Physical Memory: 32697MB Total, 19400MB Free
+18:00:20.509: Windows Version: 6.1 Build 7601 (revision: 18409; 64-bit)
+18:00:20.510: Running as administrator: true
+18:00:20.510: Aero is Enabled
+18:00:20.512: Current Date/Time: 2019-06-05, 18:00:20
+18:00:20.512: Browser Hardware Acceleration: false
+18:00:20.512: Portable mode: false
+18:00:20.854: OBS 23.0.2 (64-bit, windows)
+18:00:20.854: ---------------------------------
+18:00:20.866: ---------------------------------
+18:00:20.866: audio settings reset:
+18:00:20.866: 	samples per sec: 44100
+18:00:20.866: 	speakers:        2
+18:00:20.869: ---------------------------------
+18:00:20.869: Initializing D3D11...
+18:00:20.869: Available Video Adapters: 
+18:00:20.871: 	Adapter 1: AMD Radeon R9 200 Series
+18:00:20.871: 	  Dedicated VRAM: 4246126592
+18:00:20.871: 	  Shared VRAM:    4026531840
+18:00:20.871: 	  output 1: pos={0, 0}, size={2560, 1440}, attached=true
+18:00:20.871: 	  output 2: pos={-1920, 226}, size={1920, 1080}, attached=true
+18:00:20.871: 	  output 3: pos={2560, 226}, size={1920, 1080}, attached=true
+18:00:20.873: Loading up D3D11 on adapter AMD Radeon R9 200 Series (0)
+18:00:20.884: D3D11 loaded successfully, feature level used: 45056
+18:00:21.529: ---------------------------------
+18:00:21.529: video settings reset:
+18:00:21.529: 	base resolution:   1920x1086
+18:00:21.529: 	output resolution: 1920x1086
+18:00:21.529: 	downscale filter:  Bicubic
+18:00:21.529: 	fps:               30/1
+18:00:21.529: 	format:            NV12
+18:00:21.529: 	YUV mode:          601/Partial
+18:00:21.529: NV12 texture support not available
+18:00:21.531: Audio monitoring device:
+18:00:21.531: 	name: Default
+18:00:21.531: 	id: default
+18:00:21.531: ---------------------------------
+18:00:21.539: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+18:00:21.542: Failed to load 'en-US' text for module: 'decklink-ouput-ui.dll'
+18:00:21.729: [AMF] Version 2.4.2 loaded (Compiled: 1.4.7.0, Runtime: 1.4.12.0, Library: 1;4;12;0;18.50.31.01;201903262336;CL#1762099).
+18:00:21.814: [AMF] [Capability Manager] Testing Direct3D 9 Adapter 'AMD Radeon R9 200 Series [\\.\DISPLAY3] (VEN_1002/DEV_6810/SUB_e271174b/REV_0000)':
+18:00:21.814:   H264/AVC: Supported
+18:00:21.814:   H265/HEVC: Not Supported
+18:00:21.814: 
+18:00:21.814: [AMF] [H265/HEVC] Not supported by any GPU, disabling...
+18:00:21.864: Module '../../obs-plugins/64bit/libEGL.dll' not loaded
+18:00:21.877: [obs-browser]: Version 2.3.0
+18:00:22.552: Couldn't find VLC installation, VLC video source disabled
+18:00:22.557: No blackmagic support
+18:00:22.565: ---------------------------------
+18:00:22.565:   Loaded Modules:
+18:00:22.565:     win-wasapi.dll
+18:00:22.565:     win-mf.dll
+18:00:22.565:     win-dshow.dll
+18:00:22.565:     win-decklink.dll
+18:00:22.565:     win-capture.dll
+18:00:22.565:     vlc-video.dll
+18:00:22.565:     text-freetype2.dll
+18:00:22.565:     rtmp-services.dll
+18:00:22.565:     obs-x264.dll
+18:00:22.565:     obs-vst.dll
+18:00:22.565:     obs-transitions.dll
+18:00:22.565:     obs-text.dll
+18:00:22.565:     obs-qsv11.dll
+18:00:22.565:     obs-outputs.dll
+18:00:22.565:     obs-filters.dll
+18:00:22.565:     obs-ffmpeg.dll
+18:00:22.565:     obs-browser.dll
+18:00:22.565:     image-source.dll
+18:00:22.565:     frontend-tools.dll
+18:00:22.565:     enc-amf.dll
+18:00:22.565:     decklink-ouput-ui.dll
+18:00:22.565:     coreaudio-encoder.dll
+18:00:22.565: ---------------------------------
+18:00:22.566: ==== Startup complete ===============================================
+18:00:22.567: Service '' not found
+18:00:22.572: All scene data cleared
+18:00:22.572: ------------------------------------------------
+18:00:22.636: WASAPI: Device 'Speakers (Realtek High Definition Audio)' initialized
+18:00:22.642: WASAPI: Device 'Speakers (Realtek High Definition Audio)' initialized
+18:00:22.642: [window-capture: 'Window Capture'] update settings:
+18:00:22.642: 	executable: chrome.exe
+18:00:22.648: [WASAPISource::TryInitialize]:[Speakers (3- Bluetooth Audio Device)] Failed to activate client context: 88890004
+18:00:22.648: [WASAPISource::WASAPISource] Device '{0.0.0.00000000}.{02b0b50d-846e-4501-9923-6d3b9425c718}' not found.  Waiting for device
+18:00:22.648: Switched to scene 'Scene 2'
+18:00:22.648: ------------------------------------------------
+18:00:22.648: Loaded scenes:
+18:00:22.648: - scene 'Scene':
+18:00:22.648:     - source: 'Display Capture' (monitor_capture)
+18:00:22.648:     - source: 'Audio Output Capture' (wasapi_output_capture)
+18:00:22.648: - scene 'Scene 2':
+18:00:22.648:     - source: 'Window Capture' (window_capture)
+18:00:22.648:         - filter: 'Crop/Pad' (crop_filter)
+18:00:22.648:     - source: 'Audio Output Capture 2' (wasapi_output_capture)
+18:00:22.648: ------------------------------------------------
+18:00:22.685: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Desktop Audio)
+18:00:22.685: 
+18:00:34.164: [window-capture: 'Window Capture'] update settings:
+18:00:34.164: 	executable: vivaldi.exe
+18:01:02.463: [window-capture: 'Window Capture'] update settings:
+18:01:02.463: 	executable: chrome.exe
+18:01:08.466: ---------------------------------
+18:01:08.467: [x264 encoder: 'streaming_h264'] preset: veryfast
+18:01:08.467: [x264 encoder: 'streaming_h264'] settings:
+18:01:08.467: 	rate_control: CBR
+18:01:08.467: 	bitrate:      5000
+18:01:08.467: 	buffer size:  5000
+18:01:08.467: 	crf:          0
+18:01:08.467: 	fps_num:      30
+18:01:08.467: 	fps_den:      1
+18:01:08.467: 	width:        1920
+18:01:08.467: 	height:       1086
+18:01:08.467: 	keyint:       250
+18:01:08.467: 
+18:01:08.478: ---------------------------------
+18:01:08.479: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+18:01:08.479: 
+18:01:08.484: [rtmp stream: 'adv_stream'] URL is empty
+18:01:08.484: [rtmp stream: 'adv_stream'] Connection to (null) failed: -1
+18:01:08.487: ==== Streaming Stop ================================================
+18:01:10.820: ---------------------------------
+18:01:10.820: [x264 encoder: 'recording_h264'] preset: veryfast
+18:01:10.820: [x264 encoder: 'recording_h264'] settings:
+18:01:10.820: 	rate_control: CBR
+18:01:10.820: 	bitrate:      3500
+18:01:10.820: 	buffer size:  3500
+18:01:10.820: 	crf:          0
+18:01:10.820: 	fps_num:      30
+18:01:10.820: 	fps_den:      1
+18:01:10.820: 	width:        1920
+18:01:10.820: 	height:       1086
+18:01:10.820: 	keyint:       250
+18:01:10.820: 
+18:01:10.829: ==== Recording Start ===============================================
+18:01:10.829: [ffmpeg muxer: 'adv_file_output'] Writing file 'C:/Users/Thalanos/Videos/2019-06-05 18-01-10.flv'...
+18:01:33.893: WASAPI: Device 'Speakers (Realtek High Definition Audio)' Terminated
+18:01:33.900: WASAPI: Device 'Speakers (3- Bluetooth Audio Device)' initialized
+18:11:10.140: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Audio Output Capture 2)
+18:11:10.140: 
+18:57:43.298: adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds (source: Audio Output Capture 2)
+18:57:43.298: 
+19:32:31.960: ---------------------------------
+19:32:31.960: [x264 encoder: 'streaming_h264'] settings:
+19:32:31.960: 	rate_control: CBR
+19:32:31.960: 	bitrate:      5000
+19:32:31.960: 	buffer size:  5000
+19:32:31.960: 	crf:          0
+19:32:31.960: 	fps_num:      30
+19:32:31.960: 	fps_den:      1
+19:32:31.960: 	width:        1920
+19:32:31.960: 	height:       1086
+19:32:31.960: 	keyint:       250
+19:32:31.960: 
+19:32:31.961: [rtmp stream: 'adv_stream'] URL is empty
+19:32:31.962: [rtmp stream: 'adv_stream'] Connection to (null) failed: -1
+19:32:31.964: ==== Streaming Stop ================================================
+19:32:32.014: WASAPI: Device 'Speakers (3- Bluetooth Audio Device)' initialized
+19:39:24.232: Switched to Preview/Program mode
+19:39:24.232: ------------------------------------------------
+19:39:25.812: Switched to scene 'Scene 2'
+19:39:25.813: Switched to regular Preview mode
+19:39:25.813: ------------------------------------------------
+19:39:41.396: ---------------------------------
+19:39:41.396: [x264 encoder: 'streaming_h264'] settings:
+19:39:41.396: 	rate_control: CBR
+19:39:41.396: 	bitrate:      5000
+19:39:41.396: 	buffer size:  5000
+19:39:41.396: 	crf:          0
+19:39:41.396: 	fps_num:      30
+19:39:41.396: 	fps_den:      1
+19:39:41.396: 	width:        1920
+19:39:41.396: 	height:       1086
+19:39:41.396: 	keyint:       250
+19:39:41.396: 
+19:39:41.398: [rtmp stream: 'adv_stream'] URL is empty
+19:39:41.398: [rtmp stream: 'adv_stream'] Connection to (null) failed: -1
+19:39:41.400: ==== Streaming Stop ================================================
+19:48:50.216: ==== Shutting down ==================================================
+19:48:50.218: Switched to scene '(null)'
+19:48:50.218: WASAPI: Device 'Speakers (3- Bluetooth Audio Device)' Terminated
+19:48:50.220: WASAPI: Device 'Speakers (3- Bluetooth Audio Device)' Terminated
+19:48:50.222: WASAPI: Device 'Speakers (Realtek High Definition Audio)' Terminated
+19:48:50.228: All scene data cleared
+19:48:50.228: ------------------------------------------------
